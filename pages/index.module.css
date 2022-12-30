@@ -1,0 +1,26 @@
+.p1 {
+  @apply text-lg sm:text-2xl text-center;
+  @apply text-gray-800;
+}
+
+:global(.dark) .p1 {
+  @apply text-gray-200
+}
+
+.p2 {
+  @apply text-lg sm:text-2xl text-center;
+  @apply text-gray-800 dark:text-gray-200;
+}
+
+.pre {
+  @apply flex justify-center p-4 overflow-x-auto ;
+}
+
+.prism {
+  @apply mx-4 sm:mx-2 md:mx-8 lg:mx-32 xl:mx-64 2xl:mx-96;
+}
+
+
+:global(.dark) .code {
+  @apply text-gray-200
+}
