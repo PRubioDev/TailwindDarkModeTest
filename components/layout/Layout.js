@@ -16,7 +16,7 @@ const Layout = (props) => {
       <header className={styles.header}><Link className={styles.link} href="#">Tailwind Dark Mode Test</Link></header>
       <main className={styles.main}>{props.children}</main>
       <footer className={styles.footer}>
-        <Link href="https://www.rubiopi.com" className={styles.footerLink}>
+        <Link href="https://www.rubiopi.com" className={styles.footerLink} passHref>
           <span>Powered by RubioPi</span>
         </Link>
       </footer>
